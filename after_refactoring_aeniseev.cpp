@@ -1,4 +1,4 @@
-﻿#include <cmath> 
+#include <cmath> 
 #include <iostream> 
 int main()
 {
@@ -14,9 +14,7 @@ int main()
     std::cout << std::endl;
     for (int i = 0; i < lenght / 2; i++)
     {
-        int b = arr[i];
-        arr[i] = arr[19 - i];
-        arr[19 - i] = b;
+        std::swap(arr[i], arr[19-i]);
     }
     std::cout << "перевернутый массив: ";
     for (int i = 0; i < lenght; i++)
