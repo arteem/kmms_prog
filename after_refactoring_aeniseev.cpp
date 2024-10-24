@@ -1,25 +1,39 @@
-#include <cmath> 
-#include <iostream> 
+#include <iostream>
+
+void print_array(int* arr, int lenght);
+
 int main()
 {
-    setlocale(LC_ALL, "RUS");
     int const lenght = 20;
     int arr[lenght];
     std::cout << "изначальный массив: ";
+
     for (int i = 0; i < lenght; i++)
     {
         arr[i] = rand() % 20;
-        std::cout << arr[i] << " ";
     }
-    std::cout << std::endl;
+
+    print_array(arr, lenght);
+    
     for (int i = 0; i < lenght / 2; i++)
     {
-        std::swap(arr[i], arr[19-i]);
+        std::swap(arr[i], arr[lenght-1-i]);
     }
+
     std::cout << "перевернутый массив: ";
-    for (int i = 0; i < lenght; i++)
-    {
-        std::cout << arr[i] << " ";
-    }
+
+    print_array(arr, lenght);
+
     return 0;
 }
+
+void print_array(int* arr, int lenght)
+{
+    char format = ' ';
+    for (int i = 0; i < lenght; i++)
+    {
+        std::cout << arr[i] << format;
+    }
+    std::cout << std::endl;
+}
+
