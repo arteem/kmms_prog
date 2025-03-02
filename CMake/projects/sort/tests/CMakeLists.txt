@@ -1,6 +1,6 @@
-projects(tests)
+project(tests)
 
-set(SORT_SRC_DIR ${CMAKE_SOURCE_DIR}/sorting/src)
+set(SORT_SRC_DIR ${CMAKE_SOURCE_DIR}/sort/src)
 set(SORT_TESTS_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(${SORT_SRC_DIR})
