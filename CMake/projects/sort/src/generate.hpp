@@ -3,7 +3,7 @@
 
 #include <random>
 
-namespace mmh {
+namespace eaa {
     namespace generate {
 	    void generate_array(int *arr, const int n, const int max_value);
     }

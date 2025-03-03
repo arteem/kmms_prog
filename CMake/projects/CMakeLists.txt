@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.31.5)
 
 project(project)
 
+include_directories(${CMAKE_SOURCE_DIR}/sort/src)
+
 set(CMAKE_CXX_STANDARD 17)
 
 enable_testing()

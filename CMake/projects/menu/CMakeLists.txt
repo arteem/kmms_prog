@@ -1,5 +1,7 @@
 project(menu)
 
+include_directories(${CMAKE_SOURCE_DIR}/projects/menu/src)
+
 set(HEADERS
     src/menu.hpp
     src/menu_func.hpp

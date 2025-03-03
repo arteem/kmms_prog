@@ -1,5 +1,9 @@
 project(sort)
 
+include_directories(${CMAKE_SOURCE_DIR}/projects/sort/src)
+
+
+
 set(HEADERS
     src/generate.hpp
     src/io.hpp

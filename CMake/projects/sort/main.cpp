@@ -1,18 +1,18 @@
-#include "source/io.hpp"
-#include "source/sortings.hpp"
-#include "source/generate.hpp"
+#include "src/io.hpp"
+#include "src/sortings.hpp"
+#include "src/generate.hpp"
 
 int main()
 {
-    const int arr_size = mmh::io::input_user_size();
+    const int arr_size = eaa::io::input_user_size();
     int* arr = new int[arr_size];
-    const int max_value = mmh::io::input_user_max_value();
+    const int max_value = eaa::io::input_user_max_value();
 
-    mmh::io::print_array("Массив до сортировки:", arr, arr_size);
+    eaa::io::print_array("before sort:", arr, arr_size);
 
-    mmh::sortings::insert_sort(arr, arr_size);
+    eaa::shell::shell_sort(arr, arr_size);
 
-    mmh::io::print_array("Массив после сортировки:", arr, arr_size);
+    eaa::io::print_array("after sort:", arr, arr_size);
 
     return 0;
 }
