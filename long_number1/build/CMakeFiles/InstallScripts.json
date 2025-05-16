@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Huawei/kmms_prog/long_number1/build/cmake_install.cmake",
+		"C:/Users/Huawei/kmms_prog/long_number1/build/lib/googletest/cmake_install.cmake",
+		"C:/Users/Huawei/kmms_prog/long_number1/build/lib/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/Huawei/kmms_prog/long_number1/build/lib/googletest/googletest/cmake_install.cmake",
+		"C:/Users/Huawei/kmms_prog/long_number1/build/source/cmake_install.cmake",
+		"C:/Users/Huawei/kmms_prog/long_number1/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

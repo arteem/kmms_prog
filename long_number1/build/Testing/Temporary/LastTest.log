@@ -1,0 +1,73 @@
+Start testing: May 16 19:48 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: LongNumberTests
+1/1 Test: LongNumberTests
+Command: "C:/Users/Huawei/kmms_prog/long_number1/build/test/test_long_number.exe"
+Directory: C:/Users/Huawei/kmms_prog/long_number1/build/test
+"LongNumberTests" start time: May 16 19:48 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+[==========] Running 22 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from default_constructor
+[ RUN      ] default_constructor.rank
+[       OK ] default_constructor.rank (0 ms)
+[ RUN      ] default_constructor.sign
+[       OK ] default_constructor.sign (0 ms)
+[ RUN      ] default_constructor.value
+[       OK ] default_constructor.value (0 ms)
+[----------] 3 tests from default_constructor (0 ms total)
+
+[----------] 1 test from constructor
+[ RUN      ] constructor.default_
+[       OK ] constructor.default_ (0 ms)
+[----------] 1 test from constructor (0 ms total)
+
+[----------] 4 tests from FConstructor
+[ RUN      ] FConstructor.str_positive
+[       OK ] FConstructor.str_positive (0 ms)
+[ RUN      ] FConstructor.str_negative
+[       OK ] FConstructor.str_negative (0 ms)
+[ RUN      ] FConstructor.copy
+[       OK ] FConstructor.copy (0 ms)
+[ RUN      ] FConstructor.move
+[       OK ] FConstructor.move (0 ms)
+[----------] 4 tests from FConstructor (0 ms total)
+
+[----------] 3 tests from assignment
+[ RUN      ] assignment.str
+[       OK ] assignment.str (0 ms)
+[ RUN      ] assignment.copy
+[       OK ] assignment.copy (0 ms)
+[ RUN      ] assignment.move
+[       OK ] assignment.move (0 ms)
+[----------] 3 tests from assignment (0 ms total)
+
+[----------] 4 tests from FComparisons
+[ RUN      ] FComparisons.equal
+[       OK ] FComparisons.equal (0 ms)
+[ RUN      ] FComparisons.not_equal
+[       OK ] FComparisons.not_equal (0 ms)
+[ RUN      ] FComparisons.more
+[       OK ] FComparisons.more (0 ms)
+[ RUN      ] FComparisons.less
+[       OK ] FComparisons.less (0 ms)
+[----------] 4 tests from FComparisons (0 ms total)
+
+[----------] 7 tests from FArithmetic
+[ RUN      ] FArithmetic.summ
+[       OK ] FArithmetic.summ (0 ms)
+[ RUN      ] FArithmetic.substraction
+[       OK ] FArithmetic.substraction (0 ms)
+[ RUN      ] FArithmetic.multiply
+[       OK ] FArithmetic.multiply (0 ms)
+[ RUN      ] FArithmetic.division
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Failed.
+"LongNumberTests" end time: May 16 19:48 RTZ 2 (çèìà)
+"LongNumberTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 16 19:48 RTZ 2 (çèìà)
