@@ -1,7 +1,7 @@
 #include "linked_list.hpp"
 #include <iostream>
 
-using mmh::DoublyLinkedList;
+using eaa::DoublyLinkedList;
 
 template<typename T>
 DoublyLinkedList<T>::~DoublyLinkedList() {

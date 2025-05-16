@@ -2,7 +2,7 @@
 
 #include <cstddef>
 		
-namespace mmh {
+namespace eaa {
 	template <typename T> 
 	class Vector {
 		private:

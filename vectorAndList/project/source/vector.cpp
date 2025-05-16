@@ -1,7 +1,7 @@
 #include "vector.hpp"
 #include <iostream>
 
-using mmh::Vector;
+using eaa::Vector;
 
 template<typename T>
 const std::size_t Vector<T>::START_CAPACITY = 10;
